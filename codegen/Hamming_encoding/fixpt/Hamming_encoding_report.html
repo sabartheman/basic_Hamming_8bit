@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Fixed-Point Report for Hamming_encoding</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+	body { font-family: monospace; }
+	h2 { font-family: Arial, Helvetica, sans-serif; color: #990000; margin-top: 50px; }
+	table,th,td { border: 1px solid black; }
+	table { margin-top: 30px; }
+	th { align: center; font-weight: bold; }
+	tr.h { background-color: #99CCFF; }
+	tr.a { background-color: #EEEEFF; }
+	tr.b { background-color: #FFFFFF; }
+	tr.c { background-color: #FFA500; }
+	tr.a td, tr.b td { border-style: none; }
+	td.left { text-align: left; }
+	td.right { text-align: right; }
+	td.center { text-align: center; }
+	td.bold { font-weight: bold; }
+	pre { padding: 0px; margin: 0px; }
+	span { font-style: italic; }
+	.code, .code tr, .code th, .code td { border: none; border-collapse: collapse; }
+	.padd { padding-left: 5px; }
+	td.cov, th.cov { width: 50px; height: 20px; text-align: center; font-weight: bold; border-right: 2px solid black; cell-spacing: 0px; }
+	td.cov { vertical-align: top; }
+	td.black { color: #000000; font-weight: bold; padding-top: 4px; }
+	td.white { color: #FFFFFF; font-weight: bold; padding-top: 4px; }
+	.code th { font-weight: bold; border-bottom: 2px solid black; }
+</style>
+</head>
+<body>
+<h3>Generated on  2019-03-29 14:23:57</h3>
+<p>The following table shows fixed point instrumentation results</p>
+<h2>Fixed-Point Report <span>Hamming_encoding<span></h2>
+<TABLE class="code">
+<TR>
+<TH class="cov padd">Simulation Coverage</TH>
+<TH>Code</TH>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>function[out_encoded] = Hamming_encoding(data)
+
+hammingCode = [0 0 0 0 0 0 0 0 0 0 0 0];
+
+
+hammingCode(3) = data(1)
+hammingCode(5) = data(2)
+hammingCode(6) = data(3)
+hammingCode(7) = data(4)
+hammingCode(9) = data(5)
+hammingCode(10) = data(6)
+hammingCode(11) = data(7)
+hammingCode(12) = data(8)
+
+%first hamming code Parity bit
+hammingCode(1) = mod((hammingCode(3) + hammingCode(5) + ...
+            hammingCode(7) + hammingCode(9) + hammingCode(11)),2);
+
+%second hamming code Parity bit 
+hammingCode(2) = mod((hammingCode(3) + hammingCode(6) + ...
+            hammingCode(7) + hammingCode(10) + hammingCode(11)),2);
+
+%third hamming code Parity bit
+hammingCode(4) = mod((hammingCode(5) + hammingCode(6) + ...
+                        hammingCode(7) + hammingCode(12)),2);
+
+%fourth hamming code Parity bit
+hammingCode(8) = mod((hammingCode(9) + hammingCode(10) + ...
+                        hammingCode(11) + hammingCode(12)),2);
+
+
+out_encoded = hammingCode
+
+end</pre></TD>
+</TR>
+</TABLE>
+<TABLE><TR class="h"><th>Variable Name</th><th>Type</th><th>Sim Min</th><th>Sim Max</th><th>Static Min</th><th>Static Max</th><th>Whole Number</th><th>ProposedType <BR /> (Best For WL = 14)</th></TR><TR class="a">
+<TD class="left">data</TD><TD class="left">double 1 x 8 </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="b">
+<TD class="left">hammingCode</TD><TD class="left">double 1 x 12 </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+<TR class="a">
+<TD class="left">out_encoded</TD><TD class="left">double 1 x 12 </TD><TD class="right">0</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">Yes</TD><TD class="left">numerictype(0, 1, 0)</TD></TR>
+</TABLE>
+
+</body>
+</html>
