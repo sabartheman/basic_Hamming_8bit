@@ -25,6 +25,7 @@ set_property webtalk.parent_dir /home/sky/Documents/MATLAB/Hamming/codegen/Hammi
 set_property parent.project_path /home/sky/Documents/MATLAB/Hamming/codegen/Hamming_encoding/hdlsrc/vivado_prj/Hamming_encoding_fixpt_vivado.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
+set_property ip_output_repo /home/sky/Documents/MATLAB/Hamming/codegen/Hamming_encoding/hdlsrc/vivado_prj/Hamming_encoding_fixpt_vivado.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib /home/sky/Documents/MATLAB/Hamming/codegen/Hamming_encoding/hdlsrc/Hamming_encoding_fixpt.vhd
 # Mark all dcp files as not used in implementation to prevent them from being

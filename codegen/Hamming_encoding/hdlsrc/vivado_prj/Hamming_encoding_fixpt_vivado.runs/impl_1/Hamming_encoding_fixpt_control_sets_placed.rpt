@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.4 (lin64) Build 2086221 Fri Dec 15 20:54:30 MST 2017
-| Date         : Fri Mar 29 14:27:23 2019
+| Date         : Wed Apr  3 17:34:00 2019
 | Host         : Dbrick running 64-bit Antergos Linux
 | Command      : report_control_sets -verbose -file Hamming_encoding_fixpt_control_sets_placed.rpt
 | Design       : Hamming_encoding_fixpt

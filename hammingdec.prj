@@ -17,7 +17,7 @@
     <param.fixptconv.InstrumentedMexFile>${PROJECT_ROOT}/codegen/Hamming_decoding/fixpt/Hamming_decoding_float_mex.mexa64</param.fixptconv.InstrumentedMexFile>
     <param.fixptconv.InstrumentedBuildChecksum>478553986</param.fixptconv.InstrumentedBuildChecksum>
     <param.fixptconv.ShowCoverage>true</param.fixptconv.ShowCoverage>
-    <param.fixptconv.FixedPointValidationChecksum>1755463735</param.fixptconv.FixedPointValidationChecksum>
+    <param.fixptconv.FixedPointValidationChecksum>347206710</param.fixptconv.FixedPointValidationChecksum>
     <param.fixptconv.FixedPointSourceCodeChecksum>3071764138</param.fixptconv.FixedPointSourceCodeChecksum>
     <param.fixptconv.FixedPointStaticAnalysisChecksum />
     <param.fixptconv.DefaultTestFile>${PROJECT_ROOT}/testbenchHamming_decoding.m</param.fixptconv.DefaultTestFile>
@@ -76,13 +76,13 @@
           <Variable name="errorPosition" specid="-1">
             <Column property="Kind" type="String" value="output" />
             <Column property="SimMin" type="Double" value="0.0" />
-            <Column property="SimMax" type="Double" value="0.0" />
+            <Column property="SimMax" type="Double" value="11.0" />
             <MATLABType class="double" complex="false">
               <size>1</size>
               <size>1</size>
             </MATLABType>
             <Column property="IsInteger" type="Boolean" value="true" />
-            <Column property="ProposedType" type="String" value="numerictype(0, 1, 0)" />
+            <Column property="ProposedType" type="String" value="numerictype(0, 4, 0)" />
             <Column property="RoundMode" type="String" value="Floor" />
             <Column property="OverflowMode" type="String" value="Wrap" />
             <Column property="ProductMode" type="String" value="FullPrecision" />
@@ -136,13 +136,13 @@
           <Variable name="parityErrors" specid="-1">
             <Column property="Kind" type="String" value="local" />
             <Column property="SimMin" type="Double" value="0.0" />
-            <Column property="SimMax" type="Double" value="0.0" />
+            <Column property="SimMax" type="Double" value="8.0" />
             <MATLABType class="double" complex="false">
               <size>1</size>
               <size>4</size>
             </MATLABType>
             <Column property="IsInteger" type="Boolean" value="true" />
-            <Column property="ProposedType" type="String" value="numerictype(0, 1, 0)" />
+            <Column property="ProposedType" type="String" value="numerictype(0, 4, 0)" />
             <Column property="RoundMode" type="String" value="Floor" />
             <Column property="OverflowMode" type="String" value="Wrap" />
             <Column property="ProductMode" type="String" value="FullPrecision" />
@@ -196,13 +196,13 @@
           <Variable name="errorBit" specid="-1">
             <Column property="Kind" type="String" value="local" />
             <Column property="SimMin" type="Double" value="0.0" />
-            <Column property="SimMax" type="Double" value="0.0" />
+            <Column property="SimMax" type="Double" value="11.0" />
             <MATLABType class="double" complex="false">
               <size>1</size>
               <size>1</size>
             </MATLABType>
             <Column property="IsInteger" type="Boolean" value="true" />
-            <Column property="ProposedType" type="String" value="numerictype(0, 1, 0)" />
+            <Column property="ProposedType" type="String" value="numerictype(0, 4, 0)" />
             <Column property="RoundMode" type="String" value="Floor" />
             <Column property="OverflowMode" type="String" value="Wrap" />
             <Column property="ProductMode" type="String" value="FullPrecision" />
@@ -259,10 +259,10 @@
     <param.fixptconv.StaticAnalysisGlobalRangesOnly>false</param.fixptconv.StaticAnalysisGlobalRangesOnly>
     <var.lastFixedPointAction>option.fixedPointAction.convert</var.lastFixedPointAction>
     <var.lastSimContext>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;SimulationContext&gt;&lt;testFiles&gt;&lt;file&gt;/home/sky/Documents/MATLAB/Hamming/testbenchHamming_decoding.m&lt;/file&gt;&lt;/testFiles&gt;&lt;synthetic&gt;false&lt;/synthetic&gt;&lt;/SimulationContext&gt;</var.lastSimContext>
-    <var.lastVerifyContext />
+    <var.lastVerifyContext>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;SimulationContext&gt;&lt;testFiles&gt;&lt;file&gt;/home/sky/Documents/MATLAB/Hamming/testbenchHamming_decoding.m&lt;/file&gt;&lt;/testFiles&gt;&lt;syntheticCode&gt;&lt;/syntheticCode&gt;&lt;synthetic&gt;false&lt;/synthetic&gt;&lt;/SimulationContext&gt;</var.lastVerifyContext>
     <param.fpDataRoot>/home/sky/Documents/MATLAB/Hamming/codegen/Hamming_decoding/fixpt/guiFpReport.mat</param.fpDataRoot>
     <param.fpUserFileChecksum />
-    <var.snapshotChecksum>2960338036</var.snapshotChecksum>
+    <var.snapshotChecksum>858649995</var.snapshotChecksum>
     <param.fpLastConvertChecksum>478553986</param.fpLastConvertChecksum>
     <var.FixedPointAnalysisMode>option.FixedPointAnalysisMode.Sim</var.FixedPointAnalysisMode>
     <param.FixedPointUseDesignRanges>false</param.FixedPointUseDesignRanges>
@@ -285,8 +285,8 @@
       <param.hdl.TargetInterface />
     </param.hdl.TargetInterface>
     <param.hdl.TargetLanguage>option.hdl.VHDL</param.hdl.TargetLanguage>
-    <param.hdl.CheckConformance>false</param.hdl.CheckConformance>
-    <param.hdl.LaunchConformanceReport>false</param.hdl.LaunchConformanceReport>
+    <param.hdl.CheckConformance>true</param.hdl.CheckConformance>
+    <param.hdl.LaunchConformanceReport>true</param.hdl.LaunchConformanceReport>
     <param.hdl.GenerateHDLCode>true</param.hdl.GenerateHDLCode>
     <param.hdl.GenerateEDAScripts>true</param.hdl.GenerateEDAScripts>
     <param.hdl.GenerateComments>true</param.hdl.GenerateComments>
@@ -404,9 +404,9 @@
     <param.hdl.HDLLintCmd />
     <param.hdl.HDLLintTerm />
     <param.isHDLVerifierInstalled>true</param.isHDLVerifierInstalled>
-    <param.hdl.GenerateHDLTestBench>false</param.hdl.GenerateHDLTestBench>
-    <param.hdl.SimulateGeneratedCode>false</param.hdl.SimulateGeneratedCode>
-    <param.hdl.SimulationTool>No simulation tool available on system path</param.hdl.SimulationTool>
+    <param.hdl.GenerateHDLTestBench>true</param.hdl.GenerateHDLTestBench>
+    <param.hdl.SimulateGeneratedCode>true</param.hdl.SimulateGeneratedCode>
+    <param.hdl.SimulationTool>ISIM</param.hdl.SimulationTool>
     <param.hdl.TestBenchPostfix>_tb</param.hdl.TestBenchPostfix>
     <param.hdl.ForceClock>true</param.hdl.ForceClock>
     <param.hdl.ClockHighTime>5</param.hdl.ClockHighTime>
@@ -492,7 +492,6 @@
       <param.fixptconv.DefaultFixedPointSignedness />
       <param.fixptconv.StaticAnalysisTimeout />
       <param.fixptconv.StaticAnalysisGlobalRangesOnly />
-      <var.lastVerifyContext />
       <param.fpUserFileChecksum />
       <var.FixedPointAnalysisMode />
       <param.FixedPointUseDesignRanges />
@@ -507,7 +506,6 @@
       <param.hdl.ExecutionMode />
       <param.hdl.TargetInterface />
       <param.hdl.TargetLanguage />
-      <param.hdl.CheckConformance />
       <param.hdl.LaunchConformanceReport />
       <param.hdl.GenerateHDLCode />
       <param.hdl.GenerateEDAScripts />
@@ -626,8 +624,6 @@
       <param.hdl.HDLLintCmd />
       <param.hdl.HDLLintTerm />
       <param.isHDLVerifierInstalled />
-      <param.hdl.GenerateHDLTestBench />
-      <param.hdl.SimulateGeneratedCode />
       <param.hdl.SimulationTool />
       <param.hdl.TestBenchPostfix />
       <param.hdl.ForceClock />
@@ -700,7 +696,7 @@
       <step key="category.workflow.targetinterface" skipped="false" />
       <step key="category.workflow.generate" skipped="false" />
       <step key="category.workflow.verification" skipped="false" />
-      <step key="category.workflow.hdltb" skipped="true" />
+      <step key="category.workflow.hdltb" skipped="false" />
       <step key="category.workflow.cosim" skipped="true" />
       <step key="category.workflow.FIL" skipped="true" />
       <step key="category.workflow.synthesis" skipped="true" />
@@ -756,7 +752,7 @@
       <vista>false</vista>
       <linux>true</linux>
       <solaris>false</solaris>
-      <osver>5.0.4-arch1-1-ARCH</osver>
+      <osver>5.0.5-arch1-1-ARCH</osver>
       <os32>false</os32>
       <os64>true</os64>
       <arch>glnxa64</arch>

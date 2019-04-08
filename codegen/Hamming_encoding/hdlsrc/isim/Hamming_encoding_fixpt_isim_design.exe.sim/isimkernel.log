@@ -1,0 +1,28 @@
+Command line:
+   Hamming_encoding_fixpt_isim_design.exe
+     -simmode  tcl
+     -simrunnum  0
+     -socket  51627
+
+Wed Apr  3 17:31:33 2019
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 165.27 Meg
+
+ Total Signals          : 31
+ Total Nets             : 106
+ Total Signal Drivers   : 53
+ Total Blocks           : 7
+ Total Primitive Blocks : 6
+ Total Processes        : 54
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 1110
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 240.771 Meg
+
+Wed Apr  3 17:31:33 2019
+

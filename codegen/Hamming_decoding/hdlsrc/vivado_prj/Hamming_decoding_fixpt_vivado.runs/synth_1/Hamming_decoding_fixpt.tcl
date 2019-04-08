@@ -25,6 +25,7 @@ set_property webtalk.parent_dir /home/sky/Documents/MATLAB/Hamming/codegen/Hammi
 set_property parent.project_path /home/sky/Documents/MATLAB/Hamming/codegen/Hamming_decoding/hdlsrc/vivado_prj/Hamming_decoding_fixpt_vivado.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
+set_property ip_output_repo /home/sky/Documents/MATLAB/Hamming/codegen/Hamming_decoding/hdlsrc/vivado_prj/Hamming_decoding_fixpt_vivado.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
   /home/sky/Documents/MATLAB/Hamming/codegen/Hamming_decoding/hdlsrc/Hamming_decoding_fixpt_pkg.vhd

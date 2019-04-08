@@ -11,7 +11,7 @@ fm = get_fimath();
 hammingCode = fi(input_encoded, 0, 1, 0, fm);
 
 %intializing vector for possible error positions
-parityErrors = fi([0 0 0 0], 0, 1, 0, fm);
+parityErrors = fi([0 0 0 0], 0, 4, 0, fm);
 
 %sets the first parity bit, if the sum of the checked values is even then
 %the result is 0, odd = 1
@@ -39,7 +39,7 @@ end
 rows = fi(fmo_1, 0, 1, 0, fm);
 columns = fi(fmo_2, 0, 3, 0, fm);
 
-errorBit = fi(0, 0, 1, 0, fm);
+errorBit = fi(0, 0, 4, 0, fm);
 for x = fi(1, 0, 1, 0, fm):columns
    errorBit(:) = errorBit + parityErrors(x);
 end
@@ -50,7 +50,7 @@ if(errorBit > fi(0, 0, 1, 0, fm))
 end
     
 output = fi(hammingCode, 0, 1, 0, fm)
-errorPosition = fi(errorBit, 0, 1, 0, fm)
+errorPosition = fi(errorBit, 0, 4, 0, fm)
 
 end
 

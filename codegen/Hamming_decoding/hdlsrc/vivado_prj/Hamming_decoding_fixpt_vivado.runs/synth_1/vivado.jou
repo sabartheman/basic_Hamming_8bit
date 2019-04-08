@@ -2,8 +2,8 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Fri Mar 29 14:51:07 2019
-# Process ID: 29581
+# Start of session at: Wed Apr  3 17:41:47 2019
+# Process ID: 14738
 # Current directory: /home/sky/Documents/MATLAB/Hamming/codegen/Hamming_decoding/hdlsrc/vivado_prj/Hamming_decoding_fixpt_vivado.runs/synth_1
 # Command line: vivado -log Hamming_decoding_fixpt.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Hamming_decoding_fixpt.tcl
 # Log file: /home/sky/Documents/MATLAB/Hamming/codegen/Hamming_decoding/hdlsrc/vivado_prj/Hamming_decoding_fixpt_vivado.runs/synth_1/Hamming_decoding_fixpt.vds

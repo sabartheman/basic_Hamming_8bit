@@ -15,10 +15,10 @@
     <param.hdl.BuildDirectory>option.hdl.ProjectDirectory</param.hdl.BuildDirectory>
     <param.hdl.BuildSpecifiedDirectory />
     <param.fixptconv.InstrumentedMexFile>${PROJECT_ROOT}/codegen/Hamming_encoding/fixpt/Hamming_encoding_float_mex.mexa64</param.fixptconv.InstrumentedMexFile>
-    <param.fixptconv.InstrumentedBuildChecksum>2239223564</param.fixptconv.InstrumentedBuildChecksum>
+    <param.fixptconv.InstrumentedBuildChecksum>1702187537</param.fixptconv.InstrumentedBuildChecksum>
     <param.fixptconv.ShowCoverage>true</param.fixptconv.ShowCoverage>
-    <param.fixptconv.FixedPointValidationChecksum>1825052734</param.fixptconv.FixedPointValidationChecksum>
-    <param.fixptconv.FixedPointSourceCodeChecksum>1074090209</param.fixptconv.FixedPointSourceCodeChecksum>
+    <param.fixptconv.FixedPointValidationChecksum>1189171044</param.fixptconv.FixedPointValidationChecksum>
+    <param.fixptconv.FixedPointSourceCodeChecksum>3206391085</param.fixptconv.FixedPointSourceCodeChecksum>
     <param.fixptconv.FixedPointStaticAnalysisChecksum />
     <param.fixptconv.DefaultTestFile>${PROJECT_ROOT}/testbenchHamming_encoding.m</param.fixptconv.DefaultTestFile>
     <param.fixptconv.ExcludedFixedPointVerificationFiles />
@@ -135,7 +135,7 @@
     <param.fpDataRoot>/home/sky/Documents/MATLAB/Hamming/codegen/Hamming_encoding/fixpt/guiFpReport.mat</param.fpDataRoot>
     <param.fpUserFileChecksum />
     <var.snapshotChecksum>3296263061</var.snapshotChecksum>
-    <param.fpLastConvertChecksum>2239223564</param.fpLastConvertChecksum>
+    <param.fpLastConvertChecksum>1702187537</param.fpLastConvertChecksum>
     <var.FixedPointAnalysisMode>option.FixedPointAnalysisMode.Sim</var.FixedPointAnalysisMode>
     <param.FixedPointUseDesignRanges>false</param.FixedPointUseDesignRanges>
     <param.hdl.Workflow>option.workflow.GenericAsicFpga</param.hdl.Workflow>
@@ -157,8 +157,8 @@
       <param.hdl.TargetInterface />
     </param.hdl.TargetInterface>
     <param.hdl.TargetLanguage>option.hdl.VHDL</param.hdl.TargetLanguage>
-    <param.hdl.CheckConformance>false</param.hdl.CheckConformance>
-    <param.hdl.LaunchConformanceReport>false</param.hdl.LaunchConformanceReport>
+    <param.hdl.CheckConformance>true</param.hdl.CheckConformance>
+    <param.hdl.LaunchConformanceReport>true</param.hdl.LaunchConformanceReport>
     <param.hdl.GenerateHDLCode>true</param.hdl.GenerateHDLCode>
     <param.hdl.GenerateEDAScripts>true</param.hdl.GenerateEDAScripts>
     <param.hdl.GenerateComments>true</param.hdl.GenerateComments>
@@ -277,8 +277,8 @@
     <param.hdl.HDLLintTerm />
     <param.isHDLVerifierInstalled>true</param.isHDLVerifierInstalled>
     <param.hdl.GenerateHDLTestBench>true</param.hdl.GenerateHDLTestBench>
-    <param.hdl.SimulateGeneratedCode>false</param.hdl.SimulateGeneratedCode>
-    <param.hdl.SimulationTool>No simulation tool available on system path</param.hdl.SimulationTool>
+    <param.hdl.SimulateGeneratedCode>true</param.hdl.SimulateGeneratedCode>
+    <param.hdl.SimulationTool>ISIM</param.hdl.SimulationTool>
     <param.hdl.TestBenchPostfix>_tb</param.hdl.TestBenchPostfix>
     <param.hdl.ForceClock>true</param.hdl.ForceClock>
     <param.hdl.ClockHighTime>5</param.hdl.ClockHighTime>
@@ -289,8 +289,8 @@
     <param.hdl.ForceReset>true</param.hdl.ForceReset>
     <param.hdl.ResetLength>2</param.hdl.ResetLength>
     <param.hdl.HoldInputDataBetweenSamples>true</param.hdl.HoldInputDataBetweenSamples>
-    <param.hdl.InputDataInterval>0</param.hdl.InputDataInterval>
-    <param.hdl.InitializeTestBenchInputs>false</param.hdl.InitializeTestBenchInputs>
+    <param.hdl.InputDataInterval>6</param.hdl.InputDataInterval>
+    <param.hdl.InitializeTestBenchInputs>true</param.hdl.InitializeTestBenchInputs>
     <param.hdl.MultifileTestBench>false</param.hdl.MultifileTestBench>
     <param.hdl.TestBenchDataPostfix>_data</param.hdl.TestBenchDataPostfix>
     <param.hdl.TestReferencePostfix>_ref</param.hdl.TestReferencePostfix>
@@ -380,7 +380,6 @@
       <param.hdl.ExecutionMode />
       <param.hdl.TargetInterface />
       <param.hdl.TargetLanguage />
-      <param.hdl.CheckConformance />
       <param.hdl.LaunchConformanceReport />
       <param.hdl.GenerateHDLCode />
       <param.hdl.GenerateEDAScripts />
@@ -499,7 +498,6 @@
       <param.hdl.HDLLintCmd />
       <param.hdl.HDLLintTerm />
       <param.isHDLVerifierInstalled />
-      <param.hdl.SimulateGeneratedCode />
       <param.hdl.SimulationTool />
       <param.hdl.TestBenchPostfix />
       <param.hdl.ForceClock />
@@ -511,8 +509,6 @@
       <param.hdl.ForceReset />
       <param.hdl.ResetLength />
       <param.hdl.HoldInputDataBetweenSamples />
-      <param.hdl.InputDataInterval />
-      <param.hdl.InitializeTestBenchInputs />
       <param.hdl.MultifileTestBench />
       <param.hdl.TestBenchDataPostfix />
       <param.hdl.TestReferencePostfix />
@@ -628,7 +624,7 @@
       <vista>false</vista>
       <linux>true</linux>
       <solaris>false</solaris>
-      <osver>5.0.4-arch1-1-ARCH</osver>
+      <osver>5.0.5-arch1-1-ARCH</osver>
       <os32>false</os32>
       <os64>true</os64>
       <arch>glnxa64</arch>

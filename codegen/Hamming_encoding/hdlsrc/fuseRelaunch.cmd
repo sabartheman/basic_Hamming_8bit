@@ -1,0 +1,1 @@
+-f "Hamming_encoding_fixpt_tb_simprj.do" 

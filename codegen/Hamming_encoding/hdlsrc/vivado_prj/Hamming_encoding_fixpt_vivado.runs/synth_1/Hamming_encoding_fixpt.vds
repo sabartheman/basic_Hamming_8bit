@@ -2,8 +2,8 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Fri Mar 29 14:25:27 2019
-# Process ID: 19719
+# Start of session at: Wed Apr  3 17:32:13 2019
+# Process ID: 11495
 # Current directory: /home/sky/Documents/MATLAB/Hamming/codegen/Hamming_encoding/hdlsrc/vivado_prj/Hamming_encoding_fixpt_vivado.runs/synth_1
 # Command line: vivado -log Hamming_encoding_fixpt.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Hamming_encoding_fixpt.tcl
 # Log file: /home/sky/Documents/MATLAB/Hamming/codegen/Hamming_encoding/hdlsrc/vivado_prj/Hamming_encoding_fixpt_vivado.runs/synth_1/Hamming_encoding_fixpt.vds
@@ -15,24 +15,24 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200tl'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200tl'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 19722 
+INFO: Helper process launched with PID 11507 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1209.992 ; gain = 65.000 ; free physical = 3573 ; free virtual = 11498
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1209.996 ; gain = 65.000 ; free physical = 9116 ; free virtual = 12113
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'Hamming_encoding_fixpt' [/home/sky/Documents/MATLAB/Hamming/codegen/Hamming_encoding/hdlsrc/Hamming_encoding_fixpt.vhd:36]
 INFO: [Synth 8-256] done synthesizing module 'Hamming_encoding_fixpt' (1#1) [/home/sky/Documents/MATLAB/Hamming/codegen/Hamming_encoding/hdlsrc/Hamming_encoding_fixpt.vhd:36]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1251.523 ; gain = 106.531 ; free physical = 3585 ; free virtual = 11513
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1251.527 ; gain = 106.531 ; free physical = 9130 ; free virtual = 12127
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1251.523 ; gain = 106.531 ; free physical = 3585 ; free virtual = 11513
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1251.527 ; gain = 106.531 ; free physical = 9130 ; free virtual = 12128
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a200tlfbg676-2L
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1259.527 ; gain = 114.535 ; free physical = 3585 ; free virtual = 11513
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1259.531 ; gain = 114.535 ; free physical = 9130 ; free virtual = 12128
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a200tlfbg676-2L
 INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/home/sky/Documents/MATLAB/Hamming/codegen/Hamming_encoding/hdlsrc/Hamming_encoding_fixpt.vhd:172]
@@ -60,7 +60,7 @@ INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to los
 INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/home/sky/Documents/MATLAB/Hamming/codegen/Hamming_encoding/hdlsrc/Hamming_encoding_fixpt.vhd:128]
 INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/home/sky/Documents/MATLAB/Hamming/codegen/Hamming_encoding/hdlsrc/Hamming_encoding_fixpt.vhd:144]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1267.535 ; gain = 122.543 ; free physical = 3576 ; free virtual = 11504
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1267.539 ; gain = 122.543 ; free physical = 9123 ; free virtual = 12120
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -107,7 +107,7 @@ No constraint files found.
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1423.926 ; gain = 278.934 ; free physical = 3358 ; free virtual = 11307
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1423.930 ; gain = 278.934 ; free physical = 8952 ; free virtual = 11925
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -120,7 +120,7 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.926 ; gain = 278.934 ; free physical = 3357 ; free virtual = 11307
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1423.930 ; gain = 278.934 ; free physical = 8952 ; free virtual = 11924
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -132,7 +132,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.926 ; gain = 278.934 ; free physical = 3357 ; free virtual = 11306
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1423.930 ; gain = 278.934 ; free physical = 8951 ; free virtual = 11924
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -156,7 +156,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.926 ; gain = 278.934 ; free physical = 3357 ; free virtual = 11306
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.930 ; gain = 278.934 ; free physical = 8951 ; free virtual = 11924
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -169,7 +169,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.926 ; gain = 278.934 ; free physical = 3357 ; free virtual = 11306
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.930 ; gain = 278.934 ; free physical = 8951 ; free virtual = 11924
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -181,25 +181,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.926 ; gain = 278.934 ; free physical = 3357 ; free virtual = 11306
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.930 ; gain = 278.934 ; free physical = 8951 ; free virtual = 11924
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.926 ; gain = 278.934 ; free physical = 3357 ; free virtual = 11306
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.930 ; gain = 278.934 ; free physical = 8951 ; free virtual = 11924
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.926 ; gain = 278.934 ; free physical = 3357 ; free virtual = 11306
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.930 ; gain = 278.934 ; free physical = 8951 ; free virtual = 11924
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.926 ; gain = 278.934 ; free physical = 3357 ; free virtual = 11306
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.930 ; gain = 278.934 ; free physical = 8952 ; free virtual = 11924
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -228,11 +228,11 @@ Report Instance Areas:
 |1     |top      |       |    24|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.926 ; gain = 278.934 ; free physical = 3357 ; free virtual = 11306
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.930 ; gain = 278.934 ; free physical = 8952 ; free virtual = 11924
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.926 ; gain = 278.934 ; free physical = 3359 ; free virtual = 11308
-Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.934 ; gain = 278.934 ; free physical = 3359 ; free virtual = 11308
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.930 ; gain = 278.934 ; free physical = 8954 ; free virtual = 11926
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 1423.938 ; gain = 278.934 ; free physical = 8954 ; free virtual = 11926
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -244,8 +244,8 @@ No Unisim elements were transformed.
 INFO: [Common 17-83] Releasing license: Synthesis
 35 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 1507.949 ; gain = 376.328 ; free physical = 3312 ; free virtual = 11275
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 1507.953 ; gain = 376.328 ; free physical = 8920 ; free virtual = 11892
 INFO: [Common 17-1381] The checkpoint '/home/sky/Documents/MATLAB/Hamming/codegen/Hamming_encoding/hdlsrc/vivado_prj/Hamming_encoding_fixpt_vivado.runs/synth_1/Hamming_encoding_fixpt.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Hamming_encoding_fixpt_utilization_synth.rpt -pb Hamming_encoding_fixpt_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.08 . Memory (MB): peak = 1531.961 ; gain = 0.000 ; free physical = 3313 ; free virtual = 11276
-INFO: [Common 17-206] Exiting Vivado at Fri Mar 29 14:25:53 2019...
+report_utilization: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.08 . Memory (MB): peak = 1531.965 ; gain = 0.000 ; free physical = 8921 ; free virtual = 11893
+INFO: [Common 17-206] Exiting Vivado at Wed Apr  3 17:32:39 2019...

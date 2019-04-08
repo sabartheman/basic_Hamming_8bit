@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.4 (lin64) Build 2086221 Fri Dec 15 20:54:30 MST 2017
-| Date         : Fri Mar 29 14:26:29 2019
+| Date         : Wed Apr  3 17:33:13 2019
 | Host         : Dbrick running 64-bit Antergos Linux
 | Command      : report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 3 -nworst 3 -name timing_post_map -file timing_post_map.rpt
 | Design       : Hamming_encoding_fixpt

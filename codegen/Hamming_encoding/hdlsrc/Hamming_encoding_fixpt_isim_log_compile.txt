@@ -1,0 +1,3 @@
+Parsing VHDL file "Hamming_encoding_fixpt.vhd" into library xlib
+Parsing VHDL file "Hamming_encoding_fixpt_tb_pkg.vhd" into library xlib
+Parsing VHDL file "Hamming_encoding_fixpt_tb.vhd" into library xlib

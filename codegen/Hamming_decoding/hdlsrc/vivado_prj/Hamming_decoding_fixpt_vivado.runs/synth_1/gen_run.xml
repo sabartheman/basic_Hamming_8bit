@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a200tlfbg676-2L" LaunchTime="1553892666">
-  <File Type="RDS-UTIL-PB" Name="Hamming_decoding_fixpt_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="Hamming_decoding_fixpt_utilization_synth.rpt"/>
-  <File Type="RDS-RDS" Name="Hamming_decoding_fixpt.vds"/>
-  <File Type="RDS-DCP" Name="Hamming_decoding_fixpt.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7a200tlfbg676-2L" LaunchTime="1554334907">
   <File Type="PA-TCL" Name="Hamming_decoding_fixpt.tcl"/>
   <File Type="REPORTS-TCL" Name="Hamming_decoding_fixpt_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Hamming_decoding_fixpt.vds"/>
+  <File Type="RDS-DCP" Name="Hamming_decoding_fixpt.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="Hamming_decoding_fixpt_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="Hamming_decoding_fixpt_utilization_synth.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/../Hamming_decoding_fixpt_pkg.vhd">
